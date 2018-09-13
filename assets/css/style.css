@@ -1,11 +1,31 @@
-#blank0 {
-  color: blue;
+/* 
+#889BB2
+#FF9D97
+#FFD38E
+#9ECCB1
+#A3B272 
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body {
+  background-color: #A3B272;
+  color: #FFD38E;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
-#blank1 {
-  color: red;
+#guessed-letters {
+  color: #FF9D97;
 }
 
-#blank2 {
-  color: purple;
+#message-area {
+  color: #9ECCB1;
+}
+
+#word-area {
+  color: #889BB2;
+  font-size: 150%;
 }

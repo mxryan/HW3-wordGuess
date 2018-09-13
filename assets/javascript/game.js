@@ -15,7 +15,7 @@ var corrects = [];
 var chosenWord, lettersRemaining;
 var guessesRemaining;
 
-// still need: new game, guesses remaining, game over msg, score tracker
+//still need: you win!
 
 
 function pickWord(arr) {
@@ -25,7 +25,7 @@ function pickWord(arr) {
 function displayBlanks(targ, num) {
   var blanks = "";
   for (var i = 0; i < num; i++) {
-    var blank = "<span id='blank" + i + "'>_&nbsp</span>";
+    var blank = "<span class='blankspace' id='blank" + i + "'>_&nbsp</span>";
     blanks += blank;
   }
   targ.innerHTML = blanks;
@@ -101,14 +101,4 @@ function newGame() {
 newGameBtn.onclick = () => {
   newGame();
 }
-
-
-// chosenWord = pickWord(words);
-// lettersRemaining = chosenWord.length;
-// displayBlanks(wordArea, chosenWord.length);
-// guessesRemaining = 10;
-// guessRemaingArea.textContent = guessesRemaining;
-// document.onkeypress = (event) => {
-//   handleKeyPress(event);
-// }
 
