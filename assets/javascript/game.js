@@ -15,8 +15,6 @@ var corrects = [];
 var chosenWord, lettersRemaining;
 var guessesRemaining;
 
-//still need: you win!
-
 
 function pickWord(arr) {
   return arr[Math.floor(Math.random() * words.length)];

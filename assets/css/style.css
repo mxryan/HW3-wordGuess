@@ -10,11 +10,45 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 
+/* found this hack to set background here:
+https://css-tricks.com/perfect-full-page-background-image/ */
+html { 
+  background: url(../images/hugo-villegas-milkyway.jpg) no-repeat center center fixed #000; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 body {
-  background-color: #A3B272;
   color: #FFD38E;
   font-family: 'Lato', sans-serif;
   text-align: center;
+}
+
+button {
+  background-color: #FFD38E;
+  font-size: 140%;
+  opacity: 0.3;
+  
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.container {
+  display: flex;
+}
+
+
+.box {
+  width: 50%;
+}
+
+.box div {
+  height: 300px;
 }
 
 #guessed-letters {
@@ -26,6 +60,6 @@ body {
 }
 
 #word-area {
-  color: #889BB2;
+  color: #a8bBd2;
   font-size: 150%;
 }
