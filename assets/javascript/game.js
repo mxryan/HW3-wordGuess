@@ -2,7 +2,13 @@ var words = [
   "hymn", "hotdog", "hamburger", "zebra", "heaven", "alpha", "omega",
   "orange", "grape", "orangutan", "elephant", "sternocloidomastoid",
   "volcano", "delta", "xenophobic", "elementary", "glycosylation",
-  "glucocorticoid", "cholesterol", "steric", "arbitrary", "calves"
+  "glucocorticoid", "cholesterol", "steric", "arbitrary", "calves",
+  "caramel", "pajamas", "elemental", "bishop", "cloister", "hamster",
+  "shoes", "target", "christmas", "hardened", "softened", "sternum",
+  "stern", "trigger", "triggered", "turtles", "scrumptious", "dogs",
+  "twinkle", "drums", "smooth", "rough", "random", "eerie", "sugars",
+  "sugar", "glucose", "fructose", "galactose", "lactose", "maltose",
+  "citrate", "maltate", "glycerin", "aspartate", "aspartame", "frogs"
 ]
 
 var wordArea = document.querySelector("#word-area");
